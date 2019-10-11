@@ -1,0 +1,253 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+body {
+  font-family: 'Share Tech', sans-serif;
+}
+
+nav ul a,
+nav .brand-logo {
+  color: #4db6ac;
+}
+
+nav .brand-logo {
+  font-family: 'Mansalva', cursive;
+  color: #4db6ac;
+}
+
+nav .brand-logo i.material-icons {
+  margin-right: 2px;
+}
+
+.nav-wrapper {
+  padding: 0 20px;
+  background-color: white;
+}
+
+
+nav .button-collapse {
+  color: #00bfb3;
+  padding: 0 0px;
+  float: left;
+  position: relative;
+  z-index: 1;
+  height: 56px;
+  margin: 0 0px;
+}
+
+@media only screen and (max-width: 992px) {
+  .hide-on-med-and-down {
+    display: none !important;
+  }
+a .brand-logo {
+  text-align: center;
+}
+}
+
+
+.parallax-container {
+  min-height: 200px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+
+
+/*INTRO*/
+
+
+.section-intro {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+
+.header-title {
+  font-weight: bold;
+  margin-top: 100px;
+  margin-bottom: 0px;
+}
+
+.header-subtitle {
+  font-weight: bold;
+  margin-top: 100px;
+  color: #fff;
+}
+
+
+#email {
+  height: 2rem;
+  margin-bottom: 0px;
+}
+
+.btn-registration {
+width: 100%;
+height: 2rem;
+}
+
+ #months {
+  margin-top: 50px;
+}
+
+/*PROGRAM*/
+
+div#program-container.container {
+  width: 90%;
+  height: 100%;
+}
+
+#program_image {
+  min-height: 200px;
+}
+
+
+.icon-one {
+  margin-top: 10px;
+  font-weight: bold;
+  text-align: center;
+  font-size: 5em;
+}
+
+#bootcamp-program {
+  min-height: 100px;
+  margin-top: 30px;
+}
+
+#program-container {
+  margin-bottom: 50px;
+}
+.h5-subtitle {
+color: #023436 }
+
+.food-title {
+  margin-top: 10px;
+}
+
+#white-back {
+  background-color: #fff;
+  width: 100%;
+  height: 100px;
+}
+
+/*FOOD STUDY TRIP*/
+
+#food_section {
+  width: 100%;
+  height:100%;
+  background-color: #4db6ac;
+}
+
+.food-title {
+  font-weight: bold;
+  margin-bottom: 0px;
+}
+
+#food_icon {
+  background-color: #4db6ac;
+}
+.icon-block {
+  width: 100%;
+  height: 100%;
+  margin-top: 50px;
+}
+
+.circle {
+  width: 300px;
+  max-height: 180px;
+}
+
+div#food_icon.parallax-container {
+  padding: 0px 100px;
+}
+
+/*OPPORTUNITY*/
+#opportunity_section {
+  min-height: 300px;
+  margin-top: 100px;
+}
+/*CONTACT US*/
+
+.parallax-container .header-contact_us{
+  line-height: 1.4em;
+  font-style: italic;
+  font-weight: bold;
+}
+
+#contact_us_section {
+  min-height: 300px;
+  margin-top: 100px;
+}
+
+@media only screen and (max-width : 2000px) {
+  .parallax-container .section {
+  /*  position: absolute;
+    top: 40%;*/
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+nav .brand-logo {
+  font-size: 3em;
+  width: 400px;
+  }
+
+}
+
+@media only screen and (max-width : 760px) {
+  nav .brand-logo {
+  font-size: 2.4em;
+  width: 300px;
+  text-align: center;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #months {
+  margin-top: 0px;
+}
+}
+
+@media only screen and (max-width : 450px) {
+  nav .brand-logo {
+  font-size: 1.8em;
+  width: 250px;
+  text-align: center;
+  }
+}
+
+@media only screen and (max-width : 400px) {
+  nav .brand-logo {
+  font-size: 1.8em;
+  width: 220px;
+  text-align: center;
+  }
+}
+#intro h5 {
+font-size: 1.3em;
+line-height: 1.6em;
+}
+
+
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+  background-color: #023436;
+}
+
+.social-icon {
+  font-size: 1.5em;
+  color:white;
+  padding: 0 20px;
+}
+
+.social-icon:hover {
+  color: #00bfb3;
+}
