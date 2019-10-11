@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Food Tech Bootcamp</title>
+  <meta name="description" content="The first coding bootcamp FoodTech oriented."/>
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Mansalva|Share+Tech&display=swap" rel="stylesheet">
+</head>
+
+<!-- Fontawesome -->
+<link href="fontawesome/css/all.css" rel="stylesheet">
+
+<body>
+
+
+<!-- Fixed Nav Bar mobile responsive -->
+<div class="navbar-fixed">
+<nav>
+    <div class="nav-wrapper">
+      <a href="" class="brand-logo">Food Tech Bootcamp</a>
+      <a href="#" data-target="mobile-demo" class="sidenav-trigger button-collapse"><i class="material-icons">menu</i></a>
+      <ul class="menu right hide-on-med-and-down">
+          <li><a href="#bootcamp-program">Bootcamp program</a></li>
+          <li><a href="#food_section">FoodTech study trips</a></li>
+          <li><a href="#program2">Opportunities</a></li>
+          <li><a href="#intro">About</a></li>
+          <li><a href="">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <ul class="sidenav" id="mobile-demo">
+     <li><a href="#bootcamp-program">Bootcamp program</a></li>
+      <li><a href="#food_section">FoodTech study trips</a></li>
+      <li><a href="">Opportunities</a></li>
+      <li><a href="#intro">About</a></li>
+      <li><a href="">Contact</a></li>
+  </ul>
+</div>
+
+
+<!-- Intro -->
+
+ <div id="intro" class="parallax-container valign-wrapper">
+    <div class="parallax"><img src="image/d.png" alt="Unsplashed background img 1"></div>
+    <div class="section-intro no-pad-bot">
+      <div class="container">
+        <div class="row">
+        <h1 class="header-title light">JOIN THE FIRST CODING BOOTCAMP FOOD TECH ORIENTED</h1>
+        <h4 class="">Bangalore, India - January 2020</h4>
+        <div class="row">
+        <div class="input-field col s10 offset-s1 m8 offset-m2 l8 offset-l2 xl8 offset-xl2">
+          <input id="email" type="email" class="validate white center teal-text" placeholder="Email">
+          <button class="btn-small btn-registration waves-effect waves-light teal-text lighten-2 white-text" type="submit" name="action">I want to know more</button>
+        </div>
+      </div>
+    </div>
+
+      </div>
+    </div>
+  </div>
+
+      <!--   PROGRAM  -->
+
+ <div id="bootcamp-program" class="parallax-container">
+    <div class="section-intro no-pad-bot">
+      <div class="container">
+        <div class="row">
+          <h3 class="header-title teal-text lighten-2">Bootcamp program </h3>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+<div id="program-container" class="container">
+   <div class="section-intro">
+      <div class="row">
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="icon-one teal-text lighten-2">5</h2>
+            <h4 class="center teal-text lighten-2 light">PROGRAMMING<br>SKILLS</h4>
+            <h6 class="center h5-subtitle">Learn html, css and javascript for web developing.<br>
+            Learn Python, a powerful programming language largely used in the tech industry.</h6>
+
+
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="icon-one teal-text lighten-2">3</h2>
+            <h4 class="center teal-text lighten-2 light">MONTHS</h4>
+            <h6 id="months" class="center .h5-subtitle">Combined hands on session, daily assessments and weekly tech events to boost your learning experience.</h6>
+
+
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="icon-one teal-text lighten-2">1</h2>
+            <h4 class="center teal-text lighten-2 light">FOOD TECH <br>PROJECT</h4>
+            <h6 class="center .h5-subtitle">Assisted by professional developers and food enterpreneurs turn your food tech idea into reality.</h6>
+
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+<div id="program_image" class="parallax-container valign-wrapper">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <div class="row center">
+          <h4 class="header col s12 light">"Learn coding.<br>Jump into the food tech industry"</h4>
+        </div>
+      </div>
+    </div>
+
+    <div class="parallax"><img src="image/z.jpg" alt="Unsplashed background img 5"></div>
+  </div>
+
+<div id="white-back"></div>
+
+
+
+<!--   FOOD TECH TRIPS -->
+<div id="food_section" class="parallax-container section">
+    <div class="section-intro no-pad-bot">
+      <div class="container">
+        <div class="row">
+          <h2 class="center icon-block white-text"><i class="material-icons">flight</i></h2>
+          <h3 class="food-title white-text">FoodTech study trips </h3>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="food_icon" class="parallax-container">
+    <div class="section-intro">
+      <div class="row">
+
+        <div class="col s12 m12 l4">
+          <div class="icon-block">
+            <img class=" responsive-img circle" src="image/rural.jpeg">
+            <h5 class="center white-text light">RURAL</h5>
+            <h6 class="center h5-subtitle light">
+            Discover how drones, sensors and blockchain technology can valorise fully organic agriculture practice of rural India.</h6>
+          </div>
+        </div>
+
+        <div class="col s12 m12 l4">
+          <div class="icon-block">
+            <img class="circle responsive-img" src="image/robot_arm2.png">
+            <h5 class="center white-text">TECH</h5>
+            <h6 class="center h5-subtitle light">Meet leading people behind the best food tech startups of India and take valuable insights for your next project.</h6>
+          </div>
+        </div>
+
+        <div class="col s12 m12 l4">
+          <div class="icon-block">
+            <img class="responsive-img circle" src="image/gastronomy.jpeg">
+            <h5 class="center white-text">GASTRONOMY</h5>
+            <h6 class="center h5-subtitle light">Taste delicious dishes from fisherman's village and finalize your project in a hidden paradise.</h6>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+<!-- Opportunity -->
+
+<div id="food_section" class="parallax-container valign-wrapper">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <div class="row center">
+          <h5 id="title_food" class="header col s12 light">Passion led us here</h5>
+        </div>
+      </div>
+    </div>
+
+    <div class="parallax"><img src="image/opportunity.png" alt="Unsplashed background img 2"></div>
+  </div>
+
+ <!--   Opportunity section   -->
+  <div class="container">
+    <div class="section">
+
+      <div class="row">
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center teal-text lighten-2"><i class="material-icons">code</i></h2>
+            <h2 class="center teal-text lighten-2 fas fa-university"></h2>
+            <h5 class="center">Python</h5>
+
+            <p class="center light">Learn Python, a powerful programming language largely used in the tech industry.</p>
+
+            <img class=" responsive-img" src="image/a2.png">
+
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center teal-text lighten-2"><i class="material-icons">group</i></h2>
+            <h2 class="center teal-text lighten-2 fas fa-graduation-cap"></h2>
+            <h5 class="center">Learn</h5>
+
+            <p class="center light">Combined hands on session, daily assessments and focused meeting to boost your learning experience.</p>
+
+            <img class=" responsive-img" src="image/a1.png">
+
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center teal-text lighten-2"><i class="material-icons">build</i></h2>
+            <h5 class="center">Launch</h5>
+
+            <p class="center light">Assisted by professional developers and food tech experts launch your Food Tech Startup.</p>
+
+            <img class="responsive-img" src="image/qwd.png">
+
+          </div>
+        </div>
+      </div>
+
+  </div>
+</div>
+
+<!-- Contact Us -->
+  <div id="contact_us_section" class="parallax-container valign-wrapper">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <div class="row left">
+          <h3 class="header-contact_us col s12 light">Join us<br>Disrupt the food system</h3>
+        </div>
+      </div>
+    </div>
+    <div class="parallax"><img src="image/opportunity2.png" alt="Unsplashed background img 2"></div>
+  </div>
+
+  <div class="container">
+    <div class="section">
+
+      <div class="row">
+        <div class="col s12 center">
+          <h3><i class="mdi-content-send brown-text"></i></h3>
+          <h4>Contact Us</h4>
+          <p class="left-align light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque id nunc nec volutpat. Etiam pellentesque tristique arcu, non consequat magna fermentum ac. Cras ut ultricies eros. Maecenas eros justo, ullamcorper a sapien id, viverra ultrices eros. Morbi sem neque, posuere et pretium eget, bibendum sollicitudin lacus. Aliquam eleifend sollicitudin diam, eu mattis nisl maximus sed. Nulla imperdiet semper molestie. Morbi massa odio, condimentum sed ipsum ac, gravida ultrices erat. Nullam eget dignissim mauris, non tristique erat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+  <div class="parallax-container valign-wrapper">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <div class="row center">
+          <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
+        </div>
+      </div>
+    </div>
+    <div class="parallax"><img src="image/background3.jpg" alt="Unsplashed background img 3"></div>
+  </div>
+
+<!-- FOOTER -->
+  <footer class="page-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col l12 s12 center">
+          <h5 class="white-text">Contac Us</h5>
+          <a href="mailto:andrecasero@gmail.com" class="social-icon"><i class="fas fa-envelope"></i></a>
+          <a href="https://www.instagram.com/foodtechbootcamp/" target="_blank" class="social-icon"><i class="fab fa-instagram"></i></a>
+          <a href="https://www.facebook.com/foodtechbootcamp" target="_blank" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+        2019 &copy <a class="brown-text text-lighten-3" href="http://foodtechbootcamp.com" target="_blank">FoodTechBootcamp</a>
+      </div>
+    </div>
+  </footer>
+
+
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+
+  </body>
+</html>
