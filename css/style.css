@@ -176,6 +176,14 @@ div#food_icon.parallax-container {
   height: 100%;
 }
 
+#icon-opportunity {
+font-size: 100px;
+}
+
+#title_opportunity {
+font-weight: bold;
+}
+
 /*CONTACT US*/
 
 .parallax-container .header-contact_us{
