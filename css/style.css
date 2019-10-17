@@ -31,7 +31,7 @@ nav .brand-logo i.material-icons {
 
 
 nav .button-collapse {
-  color: #00bfb3;
+  color: #4db6ac;
   padding: 0 0px;
   float: left;
   position: relative;
@@ -60,11 +60,21 @@ a .brand-logo {
 
 /*INTRO*/
 
+#image_intro {
+}
+
+#button_intro {
+  color: #4db6ac;
+}
 
 .section-intro {
   width: 100%;
   height: 100%;
   text-align: center;
+}
+
+.colored {
+  color:#4db6ac;
 }
 
 .header-title {
@@ -79,6 +89,9 @@ a .brand-logo {
   color: #fff;
 }
 
+.header-section {
+  font-weight: bold;
+}
 
 #email {
   height: 2rem;
@@ -105,6 +118,11 @@ div#program-container.container {
   min-height: 200px;
 }
 
+.icon-block2 {
+  width: 100%;
+  height: 100%;
+  margin-top: 20px;
+}
 
 .icon-one {
   margin-top: 10px;
@@ -139,7 +157,7 @@ color: #023436 }
 #food_section {
   width: 100%;
   height:100%;
-  background-color: #4db6ac;
+  background-color: #fff;
 }
 
 .food-title {
@@ -148,7 +166,7 @@ color: #023436 }
 }
 
 #food_icon {
-  background-color: #4db6ac;
+  background-color: #fff;
 }
 .icon-block {
   width: 100%;
@@ -212,11 +230,20 @@ nav .brand-logo {
 
 }
 
+@media only screen and (max-width : 990px) {
+  .h5-subtitle {
+    margin: 0px 100px;
+  }
+}
+
 @media only screen and (max-width : 760px) {
   nav .brand-logo {
   font-size: 2.4em;
   width: 300px;
   text-align: center;
+  }
+  .h5-subtitle {
+    margin: 0px 100px;
   }
 }
 
@@ -224,6 +251,12 @@ nav .brand-logo {
   #months {
   margin-top: 0px;
 }
+ .h5-subtitle {
+    margin: 0px 0px;
+  }
+  .info_program {
+    margin: 0px 100px;
+  }
 }
 
 @media only screen and (max-width : 450px) {
@@ -231,6 +264,9 @@ nav .brand-logo {
   font-size: 1.8em;
   width: 250px;
   text-align: center;
+  }
+  .info_program {
+    margin: 0px 50px;
   }
 }
 
@@ -263,5 +299,5 @@ footer.page-footer {
 }
 
 .social-icon:hover {
-  color: #00bfb3;
+  color: #4db6ac;
 }
