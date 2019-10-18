@@ -100,7 +100,7 @@ a .brand-logo {
 
 .btn-registration {
 width: 100%;
-height: 2rem;
+height: 3rem;
 }
 
  #months {
@@ -175,8 +175,8 @@ color: #023436 }
 }
 
 .circle {
-  width: 300px;
-  max-height: 180px;
+  width: 400px;
+  max-height: 300px;
 }
 
 div#food_icon.parallax-container {
@@ -199,6 +199,7 @@ font-size: 100px;
 }
 
 #title_opportunity {
+  margin-top: 10px;
 font-weight: bold;
 }
 
