@@ -20,6 +20,7 @@ nav .brand-logo {
   color: #4db6ac;
 }
 
+
 nav .brand-logo i.material-icons {
   margin-right: 2px;
 }
@@ -57,11 +58,12 @@ a .brand-logo {
   color: rgba(255,255,255,.9);
 }
 
+.title-section{
+    font-weight: bold;
+    margin: 0px;
+}
 
 /*INTRO*/
-
-#image_intro {
-}
 
 
 
@@ -75,16 +77,19 @@ a .brand-logo {
   color:#4db6ac;
 }
 
+.colored2 {
+  color: #023436
+}
+
 .header-title {
   font-weight: bold;
-  margin-top: 100px;
+  margin-top: 70px;
   margin-bottom: 0px;
-  color: #023436;
 }
 
 .header-subtitle {
   font-weight: bold;
-  margin-top: 50px;
+  margin-top: 30px;
 }
 
 .header-subtitle2 {
@@ -104,22 +109,17 @@ a .brand-logo {
 width: 100%;
 height: 3rem;
 font-weight: bold;
-background-color: #023436;
+background-color: #4db6ac;
 }
 
- #months {
-  margin-top: 50px;
-}
+
 
 /*PROGRAM*/
 
-div#program-container.container {
-  width: 90%;
-  height: 100%;
-}
 
-#program_image {
-  min-height: 200px;
+div#program-container.container {
+  width: 100%;
+  height: 100%;
 }
 
 .program-title {
@@ -134,20 +134,22 @@ div#program-container.container {
 
 .icon-one {
   margin-top: 10px;
+  margin-bottom: 0px;
   font-weight: bold;
   text-align: center;
-  font-size: 5em;
-  margin-bottom: 0px;
+  font-size: 4em;
 }
 
-.info_program {
-  color: #023436;
+
+#program_info {
+  padding: 0px 50px 10px;
+  font-size: 1.5em;
 }
 
-#bootcamp-program {
+/*#bootcamp-program {
   min-height: 100px;
   margin-top: 30px;
-}
+}*/
 
 #program-container {
   margin-bottom: 50px;
@@ -155,17 +157,55 @@ div#program-container.container {
 .h5-subtitle {
 color: #023436 }
 
-.food-title {
-  margin-top: 10px;
-}
-
 #white-back {
   background-color: #fff;
   width: 100%;
   height: 100px;
 }
 
+
+/*ACADEMY*/
+#academy {
+  margin-bottom: 100px;
+}
+
+#academy_paragraph {
+  line-height: 1;
+}
+
+#cr_byteacademy li {
+  margin-left: 20px;
+  list-style: square;
+  color: #023436;
+  }
+  p {
+  color: #4db6ac;
+}
+
+#card1 {
+  padding: 10px 20px 10px 150px;
+}
+
+#card2 {
+  padding: 10px 150px 10px 20px;
+}
+
+
+/*PARALLAX IMAGE*/
+.title_parallax {}
+
+.section-image{
+    width: 100%;
+    }
+
+
 /*FOOD STUDY TRIP*/
+
+
+
+#program_image {
+  min-height: 300px;
+}
 
 #food_section {
   width: 100%;
@@ -173,10 +213,6 @@ color: #023436 }
   background-color: #fff;
 }
 
-.food-title {
-  font-weight: bold;
-  margin-bottom: 0px;
-}
 
 #food_icon {
   background-color: #fff;
@@ -185,6 +221,7 @@ color: #023436 }
   width: 100%;
   height: 100%;
   margin-top: 50px;
+  margin-bottom: 0px;
 }
 
 .circle {
@@ -235,7 +272,7 @@ font-weight: bold;
   margin-top: 10px;
 }
 
-@media only screen and (max-width : 2000px) {
+@media only screen and (max-width : 6000px) {
   .parallax-container .section {
   /*  position: absolute;
     top: 40%;*/
@@ -253,12 +290,19 @@ nav .brand-logo {
 
 }
 
-@media only screen and (max-width : 990px) {
+@media only screen and (max-width : 992px) {
   .h5-subtitle {
     margin: 20px 100px 10px 100px;
   }
   .header-title {
   margin-top: 150px;
+}
+#card1 {
+  padding: 10px 200px 10px 200px;
+}
+
+#card2 {
+  padding: 10px 200px 10px 200px;
 }
 }
 
@@ -272,7 +316,18 @@ nav .brand-logo {
     margin: 20px 70px 10px 70px;
   }
   .header-title {
-  margin-top: 100px;
+  margin-top: 70px;
+}
+#program_info {
+  padding: 0px 20px 20px;
+}
+
+#card1 {
+  padding: 10px 100px 10px 150px;
+}
+
+#card2 {
+  padding: 10px 100px 10px 150px;
 }
 }
 
@@ -290,6 +345,13 @@ nav .brand-logo {
   div#food_icon.parallax-container {
     padding: 0px 30px 70px 30px;
 }
+#card1 {
+  padding: 10px 100px 10px 100px;
+}
+
+#card2 {
+  padding: 10px 100px 10px 100px;
+}
 }
 
 @media only screen and (max-width : 450px) {
@@ -302,7 +364,14 @@ nav .brand-logo {
     margin: 0px 10px;
   }
   .header-title {
-  margin-top: 100px;
+  margin-top: 50px;
+}
+#card1 {
+  padding: 10px 20px 10px 20px;
+}
+
+#card2 {
+  padding: 10px 20px 10px 20px;
 }
 }
 
