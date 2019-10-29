@@ -152,9 +152,11 @@ div#program-container.container {
 }*/
 
 #program-container {
-  margin-bottom: 50px;
+  margin-bottom: 120px;
 }
 .h5-subtitle {
+margin: 20px 100px 10px 100px;
+padding-bottom: 50px;
 color: #023436 }
 
 #white-back {
@@ -165,12 +167,18 @@ color: #023436 }
 
 
 /*ACADEMY*/
+
+#academy_section {
+  min-height: 100px;
+}
+
 #academy {
   margin-bottom: 100px;
 }
 
 #academy_paragraph {
   line-height: 1;
+  padding: 0px 150px;
 }
 
 #cr_byteacademy li {
@@ -210,12 +218,12 @@ color: #023436 }
 #food_section {
   width: 100%;
   height:100%;
-  background-color: #fff;
+  background-color: #023436;
 }
 
 
 #food_icon {
-  background-color: #fff;
+  background-color: #023436;
 }
 .icon-block {
   width: 100%;
@@ -322,6 +330,11 @@ nav .brand-logo {
   padding: 0px 20px 20px;
 }
 
+#academy_paragraph {
+  line-height: 1;
+  padding: 0px 100px;
+}
+
 #card1 {
   padding: 10px 100px 10px 150px;
 }
@@ -352,7 +365,12 @@ nav .brand-logo {
 #card2 {
   padding: 10px 100px 10px 100px;
 }
+#academy_paragraph {
+  line-height: 1;
+  padding: 0px 70px;
 }
+}
+
 
 @media only screen and (max-width : 450px) {
   nav .brand-logo {
@@ -373,6 +391,10 @@ nav .brand-logo {
 #card2 {
   padding: 10px 20px 10px 20px;
 }
+#academy_paragraph {
+  line-height: 1;
+  padding: 0px 50px;
+}
 }
 
 @media only screen and (max-width : 400px) {
@@ -381,7 +403,12 @@ nav .brand-logo {
   width: 220px;
   text-align: center;
   }
+  #academy_paragraph {
+  line-height: 1;
+  padding: 0px 30px;
 }
+}
+
 #intro h5 {
 font-size: 1.3em;
 line-height: 1.6em;
@@ -394,7 +421,7 @@ line-height: 1.6em;
 
 footer.page-footer {
   margin: 0;
-  background-color: #023436;
+  background-color: #0c0f0a;
 }
 
 .social-icon {
