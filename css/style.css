@@ -15,6 +15,7 @@ nav .brand-logo {
   color: #4db6ac;
 }
 
+
 nav .brand-logo {
   font-family: 'Mansalva', cursive;
   color: #4db6ac;
@@ -393,6 +394,9 @@ nav .brand-logo {
 #card1 {
   padding: 10px 30px ;
 }
+.h5-subtitle {
+    margin: 10px 5px 20px 5px;
+}
 }
 
 @media only screen and (max-width : 400px) {
@@ -407,6 +411,9 @@ nav .brand-logo {
 }
 #card1 {
   padding: 10px 20px ;
+}
+.h5-subtitle {
+    margin: 10px 5px 20px 5px;
 }
 }
 
