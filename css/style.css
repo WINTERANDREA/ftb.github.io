@@ -30,6 +30,15 @@ nav .brand-logo i.material-icons {
   background-color: white;
 }
 
+#mobile-demo {
+  width: 200px;
+
+}
+
+.sidenav li > a {
+  color: #4db6ac;
+}
+
 
 nav .button-collapse {
   color: #4db6ac;
