@@ -155,7 +155,7 @@ div#program-container.container {
   margin-bottom: 120px;
 }
 .h5-subtitle {
-margin: 20px 100px 10px 100px;
+margin: 20px 250px 10px 250px;
 padding-bottom: 50px;
 color: #023436 }
 
@@ -191,12 +191,10 @@ color: #023436 }
 }
 
 #card1 {
-  padding: 10px 20px 10px 150px;
+  padding: 10px 150px ;
 }
 
-#card2 {
-  padding: 10px 150px 10px 20px;
-}
+
 
 
 /*PARALLAX IMAGE*/
@@ -300,17 +298,10 @@ nav .brand-logo {
 
 @media only screen and (max-width : 992px) {
   .h5-subtitle {
-    margin: 20px 100px 10px 100px;
+    margin: 20px 130px 10px 130px;
   }
   .header-title {
   margin-top: 150px;
-}
-#card1 {
-  padding: 10px 200px 10px 200px;
-}
-
-#card2 {
-  padding: 10px 200px 10px 200px;
 }
 }
 
@@ -335,13 +326,6 @@ nav .brand-logo {
   padding: 0px 100px;
 }
 
-#card1 {
-  padding: 10px 100px 10px 150px;
-}
-
-#card2 {
-  padding: 10px 100px 10px 150px;
-}
 }
 
 @media only screen and (max-width : 600px) {
@@ -358,13 +342,7 @@ nav .brand-logo {
   div#food_icon.parallax-container {
     padding: 0px 30px 70px 30px;
 }
-#card1 {
-  padding: 10px 100px 10px 100px;
-}
 
-#card2 {
-  padding: 10px 100px 10px 100px;
-}
 #academy_paragraph {
   line-height: 1;
   padding: 0px 70px;
@@ -384,13 +362,7 @@ nav .brand-logo {
   .header-title {
   margin-top: 50px;
 }
-#card1 {
-  padding: 10px 20px 10px 20px;
-}
 
-#card2 {
-  padding: 10px 20px 10px 20px;
-}
 #academy_paragraph {
   line-height: 1;
   padding: 0px 50px;
@@ -427,7 +399,7 @@ footer.page-footer {
 .social-icon {
   font-size: 3em;
   color:white;
-  padding: 0 20px;
+  padding: 0px 20px 0px 0px;
 }
 
 .social-icon:hover {
