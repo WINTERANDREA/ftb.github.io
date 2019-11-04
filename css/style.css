@@ -309,6 +309,9 @@ nav .brand-logo {
   .header-title {
   margin-top: 150px;
 }
+#card1 {
+  padding: 10px 100px ;
+}
 }
 
 @media only screen and (max-width : 760px) {
@@ -331,7 +334,9 @@ nav .brand-logo {
   line-height: 1;
   padding: 0px 100px;
 }
-
+#card1 {
+  padding: 10px 50px ;
+}
 }
 
 @media only screen and (max-width : 600px) {
@@ -353,6 +358,9 @@ nav .brand-logo {
   line-height: 1;
   padding: 0px 70px;
 }
+#card1 {
+  padding: 10px 50px ;
+}
 }
 
 
@@ -373,6 +381,9 @@ nav .brand-logo {
   line-height: 1;
   padding: 0px 50px;
 }
+#card1 {
+  padding: 10px 30px ;
+}
 }
 
 @media only screen and (max-width : 400px) {
@@ -384,6 +395,9 @@ nav .brand-logo {
   #academy_paragraph {
   line-height: 1;
   padding: 0px 30px;
+}
+#card1 {
+  padding: 10px 20px ;
 }
 }
 
